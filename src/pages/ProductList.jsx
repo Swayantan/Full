@@ -6,6 +6,8 @@ import Newsletter from "../components/Newsletter";
 import Footer from "../components/Footer";
 import { mobile } from "../responsive";
 
+const Contain =styled.div``;
+
 const Container = styled.div`
 background: linear-gradient(
   rgba(255, 255, 255, 0.5),
@@ -45,8 +47,10 @@ const Option = styled.option``;
 
 const ProductList = () => {
   return (
+    <Contain>
+      <NavBar/>
     <Container>
-      <NavBar />
+      
       <Announcement />
       <Title>Plants</Title>
       <FilterContainer>
@@ -87,6 +91,7 @@ const ProductList = () => {
       <Newsletter />
       <Footer />
     </Container>
+    </Contain>
   );
 };
 

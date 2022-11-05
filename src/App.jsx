@@ -4,7 +4,6 @@ import Login from './pages/Login';
 import Product from './pages/Product';
 import Register from './pages/Register';
 import ProductList from './pages/ProductList';
-import NavBar from './components/NavBar'
 import { BrowserRouter, Routes, Route } from "react-router-dom";
 
 

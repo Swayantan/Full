@@ -103,7 +103,7 @@ const NavBar = () => {
                     <Link to="/login">Login</Link>
                 </MenuItem>
                 <MenuItem>
-                    <Badge badgeContent={4} color="primary">
+                    <Badge badgeContent={2} color="primary">
                     <Link to="/cart">
 
                     <ShoppingCartOutlinedIcon/>
