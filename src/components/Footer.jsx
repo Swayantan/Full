@@ -57,6 +57,7 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
     padding: 0;
     list-style: none;
     display: flex;
+    flex-direction:column;
     flex-wrap: wrap;
   `;
   
@@ -118,7 +119,6 @@ import LocationOnIcon from '@mui/icons-material/LocationOn';
             <ListItem>Accessories</ListItem>
             <ListItem>My Account</ListItem>
             <ListItem>Order Tracking</ListItem>
-            <ListItem>Wishlist</ListItem> 
             <ListItem>Wishlist</ListItem>
             <ListItem>Terms</ListItem>
           </List>

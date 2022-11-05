@@ -46,7 +46,7 @@ const Agreement = styled.span`
 `;
 
 const Button = styled.button`
-  flex: 1;
+  
   width: 40%;
   border: none;
   padding: 15px 20px;
@@ -54,6 +54,7 @@ const Button = styled.button`
   color: white;
   cursor: pointer;
   align: center;
+  margin:0 auto;
 `;
 const Checkbox = props => (
   <input type="checkbox" {...props} />

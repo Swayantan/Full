@@ -4,6 +4,7 @@ import Badge from '@mui/material/Badge';
 import React from 'react'
 import styled from 'styled-components'
 import {mobile} from "../responsive"
+import {Link} from 'react-router-dom';
 
 const Container =styled.div` 
     height: 150px;
@@ -93,13 +94,20 @@ const NavBar = () => {
                     <SearchIcon style={{color:"gray",fontsize:16}}/>
                 </SearchContainer>
             </Left>
-            <Center><Logo><Image src="https://api.logo.com/api/v2/images?format=webp&logo=logo_ecc7501d-5796-43b7-8fa9-0a71589e3e68&width=2000&quality=100&background=transparent&fit=contain&u=1667583878" ></Image></Logo></Center>
+            <Center><Logo><Link to="/"><Image src="https://api.logo.com/api/v2/images?format=webp&logo=logo_ecc7501d-5796-43b7-8fa9-0a71589e3e68&width=2000&quality=100&background=transparent&fit=contain&u=1667583878" ></Image></Link></Logo></Center>
             <Right>
-                <MenuItem>Register</MenuItem>
-                <MenuItem>SIGN IN</MenuItem>
+                <MenuItem>
+                    <Link to="/register">Register</Link>
+                </MenuItem>
+                <MenuItem>
+                    <Link to="/login">Login</Link>
+                </MenuItem>
                 <MenuItem>
                     <Badge badgeContent={4} color="primary">
+                    <Link to="/cart">
+
                     <ShoppingCartOutlinedIcon/>
+                    </Link>
                     </Badge>
                 </MenuItem>
 

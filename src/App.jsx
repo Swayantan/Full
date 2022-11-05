@@ -4,10 +4,23 @@ import Login from './pages/Login';
 import Product from './pages/Product';
 import Register from './pages/Register';
 import ProductList from './pages/ProductList';
+import NavBar from './components/NavBar'
+import { BrowserRouter, Routes, Route } from "react-router-dom";
+
 
 function App() {
   return (
-    <Cart/>
+    <BrowserRouter>
+      <Routes>
+        <Route path="/" element={<Home />} />
+        <Route path="/cart" element={<Cart/>}/>
+        <Route path="/register" element={<Register/>}/>
+        <Route path="/login" element={<Login/>}/>
+        <Route path="/products" element={<ProductList/>}>
+          <Route path=":singleProduct" element={<Product />} />
+        </Route>
+      </Routes>
+    </BrowserRouter>
   );
 }
 
