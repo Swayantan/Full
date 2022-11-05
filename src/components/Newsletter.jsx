@@ -1,10 +1,10 @@
-import { Send } from "@material-ui/icons";
+import SendIcon from '@mui/icons-material/Send';
 import styled from "styled-components";
 import { mobile } from "../responsive";
 
 const Container = styled.div`
   height: 60vh;
-  background-color: #fcf5f5;
+  background-color: #37db89;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -49,11 +49,11 @@ const Newsletter = () => {
   return (
     <Container>
       <Title>Newsletter</Title>
-      <Desc>Get timely updates from your favorite products.</Desc>
+      <Desc>Get Timely Updates for Fresh Plants</Desc>
       <InputContainer>
         <Input placeholder="Your email" />
         <Button>
-          <Send />
+          <SendIcon />
         </Button>
       </InputContainer>
     </Container>

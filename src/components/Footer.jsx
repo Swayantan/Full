@@ -1,12 +1,10 @@
-import {
-    Facebook,
-    Instagram,
-    MailOutline,
-    Phone,
-    Pinterest,
-    Room,
-    Twitter,
-  } from "@material-ui/icons";
+import FacebookIcon from '@mui/icons-material/Facebook';
+import InstagramIcon from '@mui/icons-material/Instagram';
+import TwitterIcon from '@mui/icons-material/Twitter';
+import PinterestIcon from '@mui/icons-material/Pinterest';
+import MailOutlineIcon from '@mui/icons-material/MailOutline';
+import PhoneIcon from '@mui/icons-material/Phone';
+import LocationOnIcon from '@mui/icons-material/LocationOn';
   import styled from "styled-components";
   import { mobile } from "../responsive";
   
@@ -82,29 +80,33 @@ import {
   const Payment = styled.img`
       width: 50%;
   `;
+
+  const Image =styled.img`
+      width: 50%;
+  `;
   
   const Footer = () => {
     return (
       <Container>
         <Left>
-          <Logo>LAMA.</Logo>
+          <Logo><Image src="https://api.logo.com/api/v2/images?format=webp&logo=logo_ecc7501d-5796-43b7-8fa9-0a71589e3e68&width=400&quality=80&background=transparent&fit=contain&icon_orientation=right&u=1667583878"></Image></Logo>
           <Desc>
             There are many variations of passages of Lorem Ipsum available, but
             the majority have suffered alteration in some form, by injected
-            humour, or randomised words which don’t look even slightly believable.
+            humour, or randomised words which don't look even slightly believable.
           </Desc>
           <SocialContainer>
             <SocialIcon color="3B5999">
-              <Facebook />
+              <FacebookIcon />
             </SocialIcon>
             <SocialIcon color="E4405F">
-              <Instagram />
+              <InstagramIcon />
             </SocialIcon>
             <SocialIcon color="55ACEE">
-              <Twitter />
+              <TwitterIcon />
             </SocialIcon>
             <SocialIcon color="E60023">
-              <Pinterest />
+              <PinterestIcon />
             </SocialIcon>
           </SocialContainer>
         </Left>
@@ -126,13 +128,13 @@ import {
         <Right>
           <Title>Contact</Title>
           <ContactItem>
-            <Room style={{marginRight:"10px"}}/> 622 Dixie Path , South Tobinchester 98336
+            <LocationOnIcon style={{marginRight:"10px"}}/> KP - 5, KIIT UNIVERSITY, Patia, Bhubaneswar, Odisha 751024
           </ContactItem>
           <ContactItem>
-            <Phone style={{marginRight:"10px"}}/> +1 234 56 78
+            <PhoneIcon style={{marginRight:"10px"}}/> +91-7001xxxxxx
           </ContactItem>
           <ContactItem>
-            <MailOutline style={{marginRight:"10px"}} /> contact@lama.dev
+            <MailOutlineIcon style={{marginRight:"10px"}} /> contact@fuulPatti.dev
           </ContactItem>
           <Payment src="https://i.ibb.co/Qfvn4z6/payment.png" />
         </Right>
