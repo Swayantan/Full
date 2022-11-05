@@ -1,12 +1,20 @@
-import { Add, Remove } from "@material-ui/icons";
+import AddIcon from '@mui/icons-material/Add';
+import RemoveIcon from '@mui/icons-material/Remove';
 import styled from "styled-components";
 import Announcement from "../components/Announcement";
 import Footer from "../components/Footer";
-import Navbar from "../components/Navbar";
+import NavBar from "../components/NavBar";
 import Newsletter from "../components/Newsletter";
 import { mobile } from "../responsive";
 
-const Container = styled.div``;
+const Container = styled.div`
+background: linear-gradient(
+  rgba(255, 255, 255, 0.5),
+  rgba(255, 255, 255, 0.5)
+),
+url("https://resize.indiatvnews.com/en/resize/newbucket/715_-/2018/07/photojoiner-photo-1-1532336719.jpeg")
+  center;
+`;
 
 const Wrapper = styled.div`
   padding: 50px;
@@ -62,13 +70,18 @@ const FilterTitle = styled.span`
   font-weight: 200;
 `;
 
-const FilterColor = styled.div`
-  width: 20px;
-  height: 20px;
-  border-radius: 50%;
+const FilterButton = styled.button`
+  width: 100px;
+  height: 30px;
+  color: #c9b81e;
+  border: 2px solid black;
   background-color: ${(props) => props.color};
   margin: 0px 5px;
   cursor: pointer;
+  &:hover{
+    //background-color: #f8f4f4;
+    opacity: 70%;
+}
 `;
 
 const FilterSize = styled.select`
@@ -117,14 +130,14 @@ const Button = styled.button`
 const Product = () => {
   return (
     <Container>
-      <Navbar />
+      <NavBar />
       <Announcement />
       <Wrapper>
         <ImgContainer>
-          <Image src="https://i.ibb.co/S6qMxwr/jean.jpg" />
+          <Image src="https://www.citypng.com/public/uploads/preview/png-coming-soon-green-stamp-sign-11662549652lsbo29f2q8.png" />
         </ImgContainer>
         <InfoContainer>
-          <Title>Denim Jumpsuit</Title>
+          <Title>Yet to decide</Title>
           <Desc>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec
             venenatis, dolor in finibus malesuada, lectus ipsum porta nunc, at
@@ -132,30 +145,29 @@ const Product = () => {
             tristique tortor pretium ut. Curabitur elit justo, consequat id
             condimentum ac, volutpat ornare.
           </Desc>
-          <Price>$ 20</Price>
+          <Price>Rs. 50</Price>
           <FilterContainer>
             <Filter>
-              <FilterTitle>Color</FilterTitle>
-              <FilterColor color="black" />
-              <FilterColor color="darkblue" />
-              <FilterColor color="gray" />
+              <FilterTitle></FilterTitle>
+              <FilterButton color="#470506" >With Pot</FilterButton>
+
+              <FilterButton color="Green">Without Pot</FilterButton>
             </Filter>
             <Filter>
               <FilterTitle>Size</FilterTitle>
               <FilterSize>
-                <FilterSizeOption>XS</FilterSizeOption>
-                <FilterSizeOption>S</FilterSizeOption>
-                <FilterSizeOption>M</FilterSizeOption>
-                <FilterSizeOption>L</FilterSizeOption>
-                <FilterSizeOption>XL</FilterSizeOption>
+                <FilterSizeOption>Seed</FilterSizeOption>
+                <FilterSizeOption>Sapling</FilterSizeOption>
+                <FilterSizeOption>Grown</FilterSizeOption>
+                <FilterSizeOption>Hybrids</FilterSizeOption>
               </FilterSize>
             </Filter>
           </FilterContainer>
           <AddContainer>
             <AmountContainer>
-              <Remove />
+              <RemoveIcon />
               <Amount>1</Amount>
-              <Add />
+              <AddIcon />
             </AmountContainer>
             <Button>ADD TO CART</Button>
           </AddContainer>

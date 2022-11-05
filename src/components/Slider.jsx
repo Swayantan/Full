@@ -11,6 +11,7 @@ const Container = styled.div`
   display: flex; 
   position: relative;
   overflow: hidden;
+  background-color: #6de8a0;
   ${mobile({ display: "none" })}
 `;
 
@@ -36,6 +37,13 @@ const Arrow = styled.div`
 const Wrapper = styled.div`
   height: 100%;
   display: flex;
+  background-color: #6de8a0;
+  background: linear-gradient(
+    rgba(255, 255, 255, 0.5),
+    rgba(255, 255, 255, 0.5)
+  ),
+  url("https://resize.indiatvnews.com/en/resize/newbucket/715_-/2018/07/photojoiner-photo-1-1532336719.jpeg")
+    center;
   transition: all 1.5s ease;
   transform: translateX(${(props) => props.slideIndex * -100}vw);
 `;
@@ -50,16 +58,22 @@ const Slide = styled.div`
 
 const ImgContainer = styled.div`
   height: 100%;
+  background-color: #64E5AD;
+  
   flex: 1;
 `;
 
 const Image = styled.img`
+  padding-top: 40px;
+  padding-left: 50px;
   height: 80%;
 `;
 
 const InfoContainer = styled.div`
   flex: 1;
   padding: 50px;
+  background-color: rgba(100, 229, 173, 0.5);
+  
 `;
 
 const Title = styled.h1`

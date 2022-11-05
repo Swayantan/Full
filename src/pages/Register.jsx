@@ -8,7 +8,7 @@ const Container = styled.div`
       rgba(255, 255, 255, 0.5),
       rgba(255, 255, 255, 0.5)
     ),
-    url("https://images.pexels.com/photos/6984661/pexels-photo-6984661.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940")
+    url("https://resize.indiatvnews.com/en/resize/newbucket/715_-/2018/07/photojoiner-photo-1-1532336719.jpeg")
       center;
   background-size: cover;
   display: flex;
@@ -46,13 +46,20 @@ const Agreement = styled.span`
 `;
 
 const Button = styled.button`
+  flex: 1;
   width: 40%;
   border: none;
   padding: 15px 20px;
   background-color: teal;
   color: white;
   cursor: pointer;
+  align: center;
 `;
+const Checkbox = props => (
+  <input type="checkbox" {...props} />
+  
+)
+
 
 const Register = () => {
   return (
@@ -66,7 +73,10 @@ const Register = () => {
           <Input placeholder="email" />
           <Input placeholder="password" />
           <Input placeholder="confirm password" />
+          
           <Agreement>
+          <Checkbox></Checkbox>
+          
             By creating an account, I consent to the processing of my personal
             data in accordance with the <b>PRIVACY POLICY</b>
           </Agreement>
