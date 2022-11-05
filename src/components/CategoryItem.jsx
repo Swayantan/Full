@@ -6,7 +6,7 @@ const Container = styled.div`
   margin: 3px;
   height: 70vh;
   position: relative;
-`;
+`; 
 
 const Image = styled.img`
   width: 100%;

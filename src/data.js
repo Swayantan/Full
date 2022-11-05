@@ -12,7 +12,7 @@ export const sliderItems = [
       title: "SAPLING 2",
       desc: "Think it later data.js",
       bg: "fcf1ed",
-    },
+    }, 
     {
       id: 3,
       img: "https://png2.cleanpng.com/sh/6d87243672b0c0eaf155639cf9d0e8f0/L0KzQYm3UsE2N6NtfZH0aYP2gLBuTgBieJZ3RdRqZz31dcb6gfJtbV54gNH5cHnxd37pgfcua6NqeeZydnWwg7n2kQBqdpgyetNwLUXkSIe7gvJkamNnT6sALkK6QoG9WMYyOWY2UKkAMEa4Qoi6UsEveJ9s/kisspng-paper-bag-reusable-shopping-bag-creative-shopping-bag-5a864bbcb2b795.2720686115187506527321.png",
@@ -35,7 +35,7 @@ export const sliderItems = [
     },
     {
       id: 3,
-      img: "https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-evergreen-shrubs-1653960998.jpg?crop=0.502xw:1.00xh;0.498xw,0&resize=640:*https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-evergreen-shrubs-1653960998.jpg?crop=0.502xw:1.00xh;0.498xw,0&resize=640:*https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-evergreen-shrubs-1653960998.jpg?crop=0.502xw:1.00xh;0.498xw,0&resize=640:*https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-evergreen-shrubs-1653960998.jpg?crop=0.502xw:1.00xh;0.498xw,0&resize=640:*https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-evergreen-shrubs-1653960998.jpg?crop=0.502xw:1.00xh;0.498xw,0&resize=640:*https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-evergreen-shrubs-1653960998.jpg?crop=0.502xw:1.00xh;0.498xw,0&resize=640:*https://hips.hearstapps.com/hmg-prod.s3.amazonaws.com/images/best-evergreen-shrubs-1653960998.jpg?crop=0.502xw:1.00xh;0.498xw,0&resize=640:*",
+      img: "https://imgcdn.floweraura.com/ixora-shrub-9975830pl-AA.jpg",
       title: "SHRUBS",
     },
   ];
