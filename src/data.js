@@ -43,34 +43,35 @@ export const sliderItems = [
   export const popularPlants = [
     {
       id:1,
-      img:"https://www.citypng.com/public/uploads/preview/png-coming-soon-green-stamp-sign-11662549652lsbo29f2q8.png",
+      img:"https://images.unsplash.com/photo-1435783459217-ee7fe5414abe?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1887&q=80",
     },
     {
       id:2,
-      img:"https://www.citypng.com/public/uploads/preview/png-coming-soon-green-stamp-sign-11662549652lsbo29f2q8.png",
+      img:"https://images.unsplash.com/photo-1616432541912-fbc3dff3a9fd?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=407&q=80",
     },
     {
       id:3,
-      img:"https://www.citypng.com/public/uploads/preview/png-coming-soon-green-stamp-sign-11662549652lsbo29f2q8.png",
+      img:"https://images.unsplash.com/photo-1617111490936-07b47eafdcd4?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=376&q=80",
     },
     {
       id:4,
-      img:"https://www.citypng.com/public/uploads/preview/png-coming-soon-green-stamp-sign-11662549652lsbo29f2q8.png",
+      img:"https://images.unsplash.com/photo-1604762526063-07244a385cdf?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
+      
     },
     {
       id:5,
-      img:"https://www.citypng.com/public/uploads/preview/png-coming-soon-green-stamp-sign-11662549652lsbo29f2q8.png",
+      img:"https://images.unsplash.com/photo-1604762512641-cc4ac4e7b279?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
     },
     {
       id:6,
-      img:"https://www.citypng.com/public/uploads/preview/png-coming-soon-green-stamp-sign-11662549652lsbo29f2q8.png",
+      img:"https://images.unsplash.com/photo-1463320898484-cdee8141c787?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     },
     {
       id:7,
-      img:"https://www.citypng.com/public/uploads/preview/png-coming-soon-green-stamp-sign-11662549652lsbo29f2q8.png",
+      img:"https://images.unsplash.com/photo-1531797611996-666aa1f3df08?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=387&q=80",
     },
     {
       id:8,
-      img:"https://www.citypng.com/public/uploads/preview/png-coming-soon-green-stamp-sign-11662549652lsbo29f2q8.png",
+      img:"https://images.unsplash.com/photo-1509423350716-97f9360b4e09?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=435&q=80",
     },
   ]
